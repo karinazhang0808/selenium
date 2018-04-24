@@ -125,6 +125,18 @@ public class ActionSelenium {
 		}
 	}
 	
+	/**
+	 * form submit
+	 * */
+	 
+	public void web_form(){
+		driver.findElement(By.id("signup-form")).submit();
+	}
+	
+	/**
+	 *upfile
+	 * */
+	 
 	public void upFile(){
 		try {
 			Thread.sleep(2000);
@@ -315,6 +327,7 @@ public class ActionSelenium {
 		as.InitDriver();
 		as.waitforElement();
 		as.inputBox();
+		//as.web_form(); 
 		//as.button();
 		//as.upHeader();
 		//as.dowmsSlectBox();
