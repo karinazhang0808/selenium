@@ -125,17 +125,8 @@ public class ActionSelenium {
 		}
 	}
 	
-	/**
-	 * form submit
-	 * */
-	 
-	public void web_form(){
-		driver.findElement(By.id("signup-form")).submit();
-	}
-	
-	/**
-	 *upfile
-	 * */
+
+
 	 
 	public void upFile(){
 		try {
@@ -174,7 +165,13 @@ public class ActionSelenium {
 		}
 	}
 	
-	
+	/**
+	 * form submit
+	 * */
+	 
+	public void web_form(){
+		driver.findElement(By.id("signup-form")).submit();
+	}
 	/**
 	 * dropDownList
 	 * */
